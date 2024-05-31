@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: basicsecurity
+  security:
+    user:
+      name: user
+      password: 1111
+
+jwt:
+  header: Authorization
+  secret: te
+  token-validity-in-seconds: 123
+
